@@ -11,18 +11,18 @@ header {
     align-items: center;
 }
 
+#titulo-header p {
+    font-size: 22px;
+    font-weight:bold;
+}
+
 .texto-pequeno {
     color: red;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.texto-pequeno p{
-    color: ;
-    font-size: ;
-    font-weight: ;
-}
 
 #menu-header {
     display: flex;
@@ -30,8 +30,7 @@ header {
 }
 
 #menu-header p{
-    color: ;
-    font-size ;
+    font-size: 20px;
 }
 
 main {
@@ -39,17 +38,18 @@ main {
 }
 
 #hero {
+    background-color: rgb(250, 208, 215);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 #texto-hero h1{
-    font-size: 8px;
+    font-size: 30px;
 }
 
 #texto-hero p{
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #img-hero img{
@@ -58,7 +58,7 @@ main {
 }
 
 body {
-    background-color: rgb(255, 219, 225);
+    background-color: rgb(255, 255, 255);
 }
 
 #galeria-texto {
@@ -66,12 +66,26 @@ body {
 }
 
 .card {
-    background-color: rgb(251, 243, 243);
+    background-color: rgb(250, 216, 216);
     width: 30%;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 .card img {
     width: 100%;
     margin-top: 20px;
+}
+
+#galeria-imgs {
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#footer {
+    margin-top: 10px;
 }
