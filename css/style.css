@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-pequeno {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.texto-pequeno p{
+    color: ;
+    font-size: ;
+    font-weight: ;
+}
+
+#menu-header {
+    display: flex;
+    gap: 10px;
+}
+
+#menu-header p{
+    color: ;
+    font-size ;
+}
+
+main {
+    padding: 10px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#texto-hero h1{
+    font-size: 8px;
+}
+
+#texto-hero p{
+    font-size: 16px;
+}
+
+#img-hero img{
+    width: 350px;
+    padding-top: 10px;
+}
+
+body {
+    background-color: rgb(255, 219, 225);
+}
+
+#galeria-texto {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgb(251, 243, 243);
+    width: 30%;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    margin-top: 20px;
+}
