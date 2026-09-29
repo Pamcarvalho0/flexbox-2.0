@@ -31,7 +31,17 @@ p{
 
 #img-curiosidade img {
     padding-top: 18px;
+    padding-bottom: 18px;
     padding-left: 10px;
     height: 180px;
     margin-left:50%;
+}
+
+#img-curiosidade {
+    margin-top: 10px;
+    background-color: pink;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
 }
