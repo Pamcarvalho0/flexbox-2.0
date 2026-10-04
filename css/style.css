@@ -78,6 +78,7 @@ main {
     margin-bottom: 20px;
 }
 
+
 #galeria-imgs {
     display: flex;
     gap: 10px;
@@ -99,4 +100,8 @@ main {
 
 #curiosidades p {
     padding-bottom: 10px;
+}
+
+small {
+    color: rgb(184, 1, 1);
 }
